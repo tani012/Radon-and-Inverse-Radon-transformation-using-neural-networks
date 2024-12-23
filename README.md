@@ -15,8 +15,7 @@ This repository implements the use of Convolutional Neural Networks (CNNs) for p
 
 ## Getting Started
 
-### Prerequisites
-Ensure Python is installed on your system. Install dependencies using:
+### Prerequisites and running the project
 ```bash
 pip install -r requirements.txt
 python src/generate_data.py
@@ -24,17 +23,17 @@ python src/train_model.py
 python src/evaluate_model.py
 ``` 
 ### Results
-Noise Robustness: CNNs outperform FBP, especially with noisy sinograms.
-Image Quality: Higher SSIM and lower MSE in image reconstruction.
-Efficiency: Real-time inference after training.
+- Noise Robustness: CNNs outperform FBP, especially with noisy sinograms.
+- Image Quality: Higher SSIM and lower MSE in image reconstruction.
+- Efficiency: Real-time inference after training.
 
 ### Applications
-Medical Imaging: Enhanced CT scan reconstructions, especially in low-dose imaging.
-Seismic Imaging: Improved reconstruction of incomplete and noisy datasets.
-Non-Destructive Testing: Accurate material inspections using sinogram data.
+- Medical Imaging: Enhanced CT scan reconstructions, especially in low-dose imaging.
+- Seismic Imaging: Improved reconstruction of incomplete and noisy datasets.
+- Non-Destructive Testing: Accurate material inspections using sinogram data.
 
 ### Future Work
-Extend the approach to 3D Radon Transform for volumetric imaging.
-Enhance the model's capability for sparse or incomplete data.
-Apply the method to real-world datasets for practical use cases.
+- Extend the approach to 3D Radon Transform for volumetric imaging.
+- Enhance the model's capability for sparse or incomplete data.
+- Apply the method to real-world datasets for practical use cases.
 
