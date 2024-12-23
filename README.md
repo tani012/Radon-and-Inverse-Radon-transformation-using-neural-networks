@@ -37,3 +37,5 @@ python src/evaluate_model.py
 - Enhance the model's capability for sparse or incomplete data.
 - Apply the method to real-world datasets for practical use cases.
 
+### Link to the colab file: 
+https://colab.research.google.com/drive/17oUd3BN4s59ALuE2pxh6J5Rc3Xxtd6Kj?usp=sharing#scrollTo=c3jdykxvo5nS
